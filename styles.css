@@ -1,0 +1,132 @@
+body { 
+    margin: 0; /* Убираем отступы */
+    overflow: hidden;
+   }
+
+.fb_page_background_container {
+	width: 55%;
+	min-width: 800px;
+	height: 2000px;
+	margin: auto;
+	position: relative;
+	background-color: #dfdfdf;
+}
+
+.email_label {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 350px;
+	top: -55px;
+	background-repeat:no-repeat;
+    background-position: center center;
+	background-image: url(letter.png);
+	background-color: white;
+	border-radius: 100px;
+}
+
+.fb_page_background_holder
+{
+	position: absolute;
+	width: 800px;
+	margin: 160px 10% 10% 10%;
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 0 20px rgba(180,180,180,0.7);
+}
+
+.fb_page_blocks_holder {
+	margin-top: 90px;
+	margin-bottom: 90px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.fb_page_blocks_holder p {
+	text-transform: capitalize;	
+}
+
+.fb_page_header {
+	margin: 30px 30px 10px 30px;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: center;
+	color: #333;
+}
+
+.form_text_name {
+	display: block;
+	float: left;
+	width: 281px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #333;
+	padding: 18px;
+	border: 1px solid #e0e0e0;
+	border-radius: 2px;
+}
+
+input.form_text_name:focus, input.form_text_name:hover {
+	outline: none;
+	border-color: #fc4c5e;
+	
+}
+
+.form_text_email {
+	display: block;
+	float: right;
+	width: 281px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #333;
+	padding: 18px;
+	border: 1px solid #e0e0e0;
+	border-radius: 2px;
+}
+
+input.form_text_email:focus, input.form_text_email:hover {
+	outline: none;
+	border-color: #fc4c5e;
+}
+
+.form_textarea {
+	display: block;
+	width: 628px;
+	height: 170px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #333;
+	padding: 15px;
+	border: 1px solid #e0e0e0;
+	border-radius: 2px;
+}
+
+textarea.form_textarea:focus, textarea.form_textarea:hover {
+	outline: none;
+	border-color: #fc4c5e;
+}
+
+.submit_button {
+	float: right;
+	width: 100px;
+	height: 50px;
+	margin-bottom: 90px;
+	font-family: Arial;
+	font-size: 18px;
+	color: #333;
+	padding: 15px;
+	color: white;
+	background-color: #fc4c5e;
+	border-width: 0px;
+	border-radius: 2px;
+}
+
+.submit_button:hover {
+	background-color: #333;
+} 
