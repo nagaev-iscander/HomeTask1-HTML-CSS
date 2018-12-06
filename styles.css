@@ -1,13 +1,21 @@
 body { 
-    margin: 0; /* Убираем отступы */
-    overflow: hidden;
-   }
+	margin: 0; /* Убираем отступы */
+	overflow: hidden;
+}
+
+h1 {
+	margin: 30px 30px 10px 30px;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: center;
+	color: #333;
+	text-transform: capitalize;	
+}
 
 .fb_page_background_container {
-	width: 55%;
+	width: 100%;
 	min-width: 800px;
 	height: 2000px;
-	margin: auto;
 	position: relative;
 	background-color: #dfdfdf;
 }
@@ -19,17 +27,19 @@ body {
 	left: 350px;
 	top: -55px;
 	background-repeat:no-repeat;
-    background-position: center center;
+	background-position: center center;
 	background-image: url(letter.png);
 	background-color: white;
 	border-radius: 100px;
 }
 
-.fb_page_background_holder
-{
+.fb_page_background_holder {
 	position: absolute;
 	width: 800px;
-	margin: 160px 10% 10% 10%;
+	top: 160px;
+	left: 50%;
+	margin-left: -400px;
+	padding-bottom: 70px;
 	background-color: white;
 	border-radius: 2px;
 	box-shadow: 0 0 20px rgba(180,180,180,0.7);
@@ -40,18 +50,6 @@ body {
 	margin-bottom: 90px;
 	margin-left: 70px;
 	margin-right: 70px;
-}
-
-.fb_page_blocks_holder p {
-	text-transform: capitalize;	
-}
-
-.fb_page_header {
-	margin: 30px 30px 10px 30px;
-	font-family: Arial;
-	font-size: 30px;
-	text-align: center;
-	color: #333;
 }
 
 .form_text_name {
@@ -71,7 +69,6 @@ body {
 input.form_text_name:focus, input.form_text_name:hover {
 	outline: none;
 	border-color: #fc4c5e;
-	
 }
 
 .form_text_email {
@@ -116,7 +113,6 @@ textarea.form_textarea:focus, textarea.form_textarea:hover {
 	float: right;
 	width: 100px;
 	height: 50px;
-	margin-bottom: 90px;
 	font-family: Arial;
 	font-size: 18px;
 	color: #333;
